@@ -11,21 +11,23 @@ export default function AboutSection() {
 
   const skills = [
     "Java",
+    "C#",
     "Python",
     "Node.js",
     "TypeScript",
     "React",
     "Next.js",
+    "Tailwind",
     "AWS",
-    "Azure",
-    "GCP",
+    
+
     "Docker",
-    "Kubernetes",
-    "Terraform",
+
+    "MySQL",
     "PostgreSQL",
-    "MongoDB",
-    "Redis",
-    "GraphQL",
+    "Oracle",
+
+
     "REST APIs",
   ]
 
@@ -47,10 +49,10 @@ export default function AboutSection() {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            I'm a passionate software developer with a strong focus on cloud computing and backend development. I love
-            building scalable, efficient applications that solve real-world problems. With expertise in modern cloud
-            platforms and containerization technologies, I create robust solutions that can handle enterprise-level
-            demands while maintaining clean, maintainable code.
+            I'm a final-year BSc in Information Technology student deeply immersed in the world of cloud computing
+            and cybersecurity. My journey is fueled by curiosity constantly exploring AWS architectures, dissecting
+            security vulnerabilities. I thrive in learning environments. For me, every challenge is a lesson, and every 
+            system is a puzzle waiting to be understood, not just deployed."
           </motion.p>
 
           <motion.div

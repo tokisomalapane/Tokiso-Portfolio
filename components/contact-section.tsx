@@ -120,19 +120,19 @@ export default function ContactSection() {
 
             <div className="space-y-4">
               <motion.a
-                href="mailto:tokiso@example.com"
+                href="mailto:tukimalapane@gmail.com"
                 whileHover={{ x: 5 }}
                 className="flex items-center p-4 rounded-lg border hover:bg-muted/50 transition-colors group"
               >
                 <Mail className="w-6 h-6 text-primary mr-4 group-hover:scale-110 transition-transform" />
                 <div>
                   <div className="font-medium">Email</div>
-                  <div className="text-sm text-muted-foreground">tokiso@example.com</div>
+                  <div className="text-sm text-muted-foreground">tukimalapane@gmail.com</div>
                 </div>
               </motion.a>
 
               <motion.a
-                href="https://linkedin.com/in/tokiso"
+                href="https://za.linkedin.com/in/tokiso-malapane-9aa0961a1"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ x: 5 }}
@@ -141,12 +141,12 @@ export default function ContactSection() {
                 <Linkedin className="w-6 h-6 text-primary mr-4 group-hover:scale-110 transition-transform" />
                 <div>
                   <div className="font-medium">LinkedIn</div>
-                  <div className="text-sm text-muted-foreground">linkedin.com/in/tokiso</div>
+                  <div className="text-sm text-muted-foreground">linkedin.com/in/tokiso-malapane</div>
                 </div>
               </motion.a>
 
               <motion.a
-                href="https://github.com/tokiso"
+                href="https://github.com/tokisomalapane"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ x: 5 }}
@@ -155,14 +155,14 @@ export default function ContactSection() {
                 <Github className="w-6 h-6 text-primary mr-4 group-hover:scale-110 transition-transform" />
                 <div>
                   <div className="font-medium">GitHub</div>
-                  <div className="text-sm text-muted-foreground">github.com/tokiso</div>
+                  <div className="text-sm text-muted-foreground">github.com/tokisomalapane</div>
                 </div>
               </motion.a>
             </div>
 
             <div className="pt-6">
               <Button variant="outline" className="w-full bg-transparent" asChild>
-                <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/Tokiso_Malapane_CV_FullStack_.pdf" target="_blank" rel="noopener noreferrer">
                   Download Resume
                 </a>
               </Button>

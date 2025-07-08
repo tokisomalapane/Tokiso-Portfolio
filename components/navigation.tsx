@@ -42,7 +42,7 @@ export default function Navigation() {
             transition={{ delay: 0.2 }}
             className="text-2xl font-bold"
           >
-            Tokiso
+            Tokiso Malapane
           </motion.div>
 
           {/* Desktop Navigation */}

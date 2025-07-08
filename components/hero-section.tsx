@@ -11,7 +11,7 @@ export default function HeroSection() {
 
   const downloadCV = () => {
     // In a real app, this would download the actual CV
-    window.open("/cv.pdf", "_blank")
+    window.open("/Tokiso_Malapane_CV_FullStack_.pdf", "_blank","noopener,noreferrer")
   }
 
   return (
@@ -75,7 +75,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Hi, I'm Tokiso
+            Hi, I'm Tokiso Malapane
           </motion.h1>
 
           <motion.p
@@ -84,7 +84,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            I build cloud-native apps with clean code and scalable infrastructure
+            Final-year BSc in Information Technology student with a relentless passion for cloud computing and cybersecurity
           </motion.p>
 
           <motion.div

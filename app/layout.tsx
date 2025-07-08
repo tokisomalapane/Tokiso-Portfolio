@@ -6,16 +6,17 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Navigation from "@/components/navigation"
 import Footer from "@/components/footer"
 
+
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Tokiso - Cloud & Backend Developer",
+  title: "Tokiso - Cloud & Sercurity Enthusiast",
   description:
-    "Software Developer specializing in cloud-native applications, backend development, and scalable infrastructure.",
-  keywords: ["software developer", "cloud computing", "backend development", "AWS", "Docker", "Kubernetes"],
-  authors: [{ name: "Tokiso" }],
+    "Final-year BSc in Information Technology student with a relentless passion for cloud computing and cybersecurity.",
+  keywords: ["software developer", "cloud computing" , "CyberSecurity", "backend development", "AWS", "Docker", ],
+  authors: [{ name: "Tokiso Malapane" }],
   openGraph: {
-    title: "Tokiso - Cloud & Backend Developer",
+    title: "Tokiso Malapane - FullStack Developer",
     description: "Software Developer specializing in cloud-native applications and backend development.",
     type: "website",
   },

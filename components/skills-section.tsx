@@ -14,49 +14,49 @@ export default function SkillsSection() {
     {
       title: "Cloud Platforms",
       icon: Cloud,
-      skills: ["AWS", "Azure", "Google Cloud", "Vercel", "Netlify"],
+      skills: ["AWS","Vercel"],
       color: "text-blue-500",
     },
     {
       title: "Backend Development",
       icon: Server,
-      skills: ["Node.js", "Python", "Java", "Go", "REST APIs", "GraphQL"],
+      skills: ["C#" , "Node.js", "Python", "Java", "REST APIs"],
       color: "text-green-500",
     },
     {
       title: "Databases",
       icon: Database,
-      skills: ["PostgreSQL", "MongoDB", "Redis", "DynamoDB", "InfluxDB"],
+      skills: ["PostgreSQL", "Oracle", "MySQL"],
       color: "text-purple-500",
     },
     {
       title: "Frontend",
       icon: Code,
-      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Vue.js"],
+      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
       color: "text-orange-500",
     },
     {
       title: "DevOps & Containers",
       icon: Container,
-      skills: ["Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub Actions"],
+      skills: ["Docker"],
       color: "text-cyan-500",
     },
     {
       title: "Tools & Platforms",
       icon: GitBranch,
-      skills: ["Git", "Linux", "Nginx", "Apache Kafka", "Elasticsearch"],
+      skills: ["Git", "Linux" , "ChatGPT"],
       color: "text-red-500",
     },
     {
       title: "Security",
       icon: Shield,
-      skills: ["OAuth", "JWT", "SSL/TLS", "AWS IAM", "Security Auditing"],
+      skills: ["Security Introduction"],
       color: "text-yellow-500",
     },
     {
       title: "Performance",
       icon: Zap,
-      skills: ["Load Balancing", "Caching", "CDN", "Monitoring", "Optimization"],
+      skills: ["Monitoring", "Optimization"],
       color: "text-pink-500",
     },
   ]
@@ -73,7 +73,7 @@ export default function SkillsSection() {
         >
           <h2 className="text-4xl font-bold mb-4">Technical Skills</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A comprehensive overview of my technical expertise across different domains of software development.
+            A comprehensive overview of my technical expertise across different domains of software development some on Beginner level.
           </p>
         </motion.div>
 

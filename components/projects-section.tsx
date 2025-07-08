@@ -15,14 +15,15 @@ export default function ProjectsSection() {
 
   const personalProjects = [
     {
-      title: "Cloud-Native E-commerce Platform",
+      title: "Tutoring Management System ",
       description:
-        "Scalable microservices architecture deployed on AWS with auto-scaling, load balancing, and CI/CD pipeline.",
-      tech: ["Node.js", "AWS", "Docker", "Kubernetes", "PostgreSQL", "Redis"],
+        "Managed entities such as tutors, students, appointments, qualifications, and administrators.",
+      tech: ["Node.js", "SQL", "Object-Oriented Programming "],
       github: "https://github.com/tokiso/ecommerce-platform",
       demo: "https://ecommerce-demo.tokiso.dev",
       image: "/placeholder.svg?height=200&width=400",
     },
+    /*
     {
       title: "Real-time Analytics Dashboard",
       description:
@@ -40,20 +41,21 @@ export default function ProjectsSection() {
       github: "https://github.com/tokiso/container-orchestrator",
       demo: "https://orchestrator.tokiso.dev",
       image: "/placeholder.svg?height=200&width=400",
-    },
+    },*/
   ]
 
   const clientProjects = [
     {
-      title: "Enterprise Banking API Gateway",
+      title: " Simple Clothing Brand E-Commerce Website",
       description:
-        "Secure, high-availability API gateway handling 10M+ daily transactions for a major financial institution.",
-      tech: ["Java", "Spring Boot", "AWS Lambda", "API Gateway", "DynamoDB", "CloudWatch"],
+        "Designed and deployed a responsive e-commerce website",
+      tech: ["Next.js", "TailwindCSS", "Node.js"],
       github: null, // Private repository
-      demo: null, // Confidential
-      image: "/placeholder.svg?height=200&width=400",
+      demo: "https://devol-heresy.vercel.app/",
+      image: "/IMG_20250701_222402.jpg?height=200&width=400",
       client: "Major Financial Institution",
     },
+    /*
     {
       title: "Healthcare Data Pipeline",
       description:
@@ -84,6 +86,7 @@ export default function ProjectsSection() {
       image: "/placeholder.svg?height=200&width=400",
       client: "Manufacturing Company",
     },
+    */
   ]
 
   const currentProjects = activeTab === "personal" ? personalProjects : clientProjects
