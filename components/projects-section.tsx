@@ -18,21 +18,22 @@ export default function ProjectsSection() {
       title: "Tutoring Management System ",
       description:
         "Managed entities such as tutors, students, appointments, qualifications, and administrators.",
-      tech: ["Node.js", "SQL", "Object-Oriented Programming "],
-      github: "https://github.com/tokiso/ecommerce-platform",
-      demo: "https://ecommerce-demo.tokiso.dev",
-      image: "/placeholder.svg?height=200&width=400",
+      tech: ["C#", "SQL", "Object-Oriented Programming "],
+      github: "https://github.com/CMPG223-30/WISEMENTORMINDS/tree/MAIN/WiseMentorMinds(p1)",
+      demo: null,
+      image: "/Screenshot from 2025-07-11 00-51-40.png?height=200&width=400",
+    },
+    
+    {
+      title: "AI  AWS and Docker are involved ",
+      description:
+        "",
+      tech: ["Next.js", "Node.js", "React", "AWS", "Docker", "Sercurity"],
+      github: null,
+      demo: null,
+      image: "/coming-soon-2070393_640.png?height=200&width=400",
     },
     /*
-    {
-      title: "Real-time Analytics Dashboard",
-      description:
-        "High-performance dashboard processing millions of events per second using Apache Kafka and real-time data streaming.",
-      tech: ["Python", "Apache Kafka", "React", "WebSocket", "InfluxDB", "Grafana"],
-      github: "https://github.com/tokiso/analytics-dashboard",
-      demo: "https://analytics.tokiso.dev",
-      image: "/placeholder.svg?height=200&width=400",
-    },
     {
       title: "Container Orchestration Tool",
       description:
